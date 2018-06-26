@@ -1,0 +1,141 @@
+
+/* Basic body style -------------------------------------------------- */
+ body
+ html{
+   margin: 0 0 0 0;
+   display: inline-block;
+    @media screen and (max-width: 1500px){
+#container {
+    min-width: 1249px;
+ }
+}
+@media screen and (max-width: 1248px){
+.container {
+    min-width: 992px;
+ }
+}
+
+@media screen and (min-width: 768px){
+.container {
+    min-width: 768px;
+ }
+}
+@media screen and (min-width: 576px){
+.container {
+    min-width: 576px;
+   }
+  }
+ }  
+/*  End of Basic body style -------------------------------------------------- */
+
+/* Jumbotron .text center help us to style text in the middle of Jumbotron -------------------------------------------------- */
+
+  .jumbotron.text-center{
+    height: 100%
+    border-radius: 0;
+    background: url("images/logo.jpg") center/cover no-repeat;
+    background-size: 100%;
+    border-radius:.2px;
+    max-height: 150px;
+    text-decoration: none;
+    color: #ff0000;
+  }
+  /* End of Jumbotron style section -------------------------------------------------- */
+  
+  /* Begin of styling .container-fluid -------------------------------------------------- */
+  .row { 
+    background-color: #003333;
+    color: white;
+    text-align: left;
+    font-family: 'Eater', cursive;
+    margin-top: -29px;
+    display: flex;
+    width: 100%
+  }
+  
+  .col-xl-12{
+       padding-right: .3px;
+       background-color: transparent
+  }
+  .fakeimg {
+    
+    height: 400px;
+    background: url("images/picture1.jpg") center center no-repeat;
+    background-size: contain;
+    display: flex;
+  }
+  
+ *, ::after, ::before {
+ box-sizing: content-box;
+}
+
+.container-fluid{
+    /*padding-right: -15px; for testing purpose only*/
+  padding-left: 15px;
+  margin-top:30px;
+}
+
+/* horizontal didvider width-------------------------------------------------- */
+hr {
+  width: 100%;
+}
+
+/* Begin of Footer styling -------------------------------------------------- */
+.blockquote-footer{
+ background-color: black;
+ width: 100%;
+ display: flex;
+ margin-left: -15px;
+}  
+.blockquote-footer::before {
+     content: none;
+}
+
+/* Begin of text -menu styling -------------------------------------------------- */
+.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    float: left;
+}
+/* Begin of text -menu styling :hover-------------------------------------------------- */
+
+ .nav-link:hover{
+     color: #cc3300;
+     background-color: #3333ff;
+     text-transform: uppercase;
+     transform: scaleY(1.1);
+     border-radius: 1px;
+     width: 125px;
+ }
+ .ul{
+    margin-left: 25px;  
+}
+    /* Begin of social-icon links -------------------------------------------------- */
+    
+ .fab.fas{
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: 100%;
+    right: 100%;
+     
+ }
+ 
+ /* styling of Youtube icon-------------------------------------------------- */
+.fab.fa-youtube{
+    background-color: red;
+ }
+ 
+#bottom-right{
+   margin:auto 0 0 auto;
+ } 
+ /* Begin of styling text Follow Us On-------------------------------------------------- */  
+.navbar-text{
+   position:static;
+   margin: auto;
+ }
+/* End of Footer Styling-------------------------------------------------- */ 
+  
+  
+

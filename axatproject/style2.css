@@ -1,9 +1,12 @@
 
 /* Basic body style -------------------------------------------------- */
- body
- html{
+ body{
+   max-width: 100%;
+   overflow-x: hidden;
    margin: 0 0 0 0;
    display: inline-block;
+   
+   
     @media screen and (max-width: 1500px){
 #container {
     min-width: 1249px;
@@ -38,7 +41,8 @@
     border-radius:.2px;
     max-height: 150px;
     text-decoration: none;
-    color: #ff0000;
+    color: #FFF;
+    text-shadow: 3px 3px red;
   }
   /* End of Jumbotron style section -------------------------------------------------- */
   
@@ -129,12 +133,15 @@ hr {
  
 #bottom-right{
    margin:auto 0 0 auto;
- } 
+  }
  /* Begin of styling text Follow Us On-------------------------------------------------- */  
+ 
 .navbar-text{
    position:static;
    margin: auto;
  }
+
+ 
 /* End of Footer Styling-------------------------------------------------- */ 
   
   

@@ -1,7 +1,15 @@
-# AXAT - WEB PAGE     
+# AXAT -WEB PAGE     
                 
-                
-                
+<div class="panel panel-danger" style="color:rgb(169,68,66)">
+
+ **!!!!!! ATTENTION !!!!!!**
+
+<div class="panel-body">
+
+ALL MATERIALS, TEXT, VIDEO AND AUDIO IN THIS WEB PAGE ARE USED FOR EDUCATION PURPOSE ONLY!!! NO - PART OR ANY MATERIALS IN THIS WEB PAGE SHOULD BE USE WITHOUT OFFICIAL PERMIT OF OWNER OF Copyrights.MATERIALS IN WEB PAGE NOT PRETEND TO BE TRUE AND SOME INFORMATION MAY BE NOT CORRECT. THIS WEB PAGE IS DONE FOR EDUCATION PURPOSE ONLY FOR  CODE INSTITUTE IRELAND FROM DIMITAR MILEV FOR FIRST MILESTONE PROJECT ON FULL STACK DEVELOPER PROGRAM. 
+
+</div>
+</div>
                
                 
  ## Getting Started
@@ -10,25 +18,12 @@
                 
    ## Prerequisites
    **None**
+   
+ ## Running the tests
+   **Web page is tested on Google Ghrome, Firefox, IE10, Opera and mobile version from Samsung S5 to Ipad Pro**
                 
-                Running the tests
-   ## Web page is tested on: 
-   **Google Ghrome**
-   **Firefox**
-   **IE10**,
-   **Opera**
-   and **mobile version from Samsung S5 to Ipad Pro**
-                
-                Break down into end to end tests
-                Explain what these tests test and why
-
-                Give an example
-                And coding style tests
-                Explain what these tests test and why
-                
-                Give an example
-                Deployment
-                Add additional notes about how to deploy this on a live system
+  **ALL HTML and CSS CODE are validate through W3c validator.**
+               
    ## Built With
    - Bootstrap v4.0.x - The web framework used
    - HTML5
@@ -46,8 +41,4 @@
                 
    ## License
    **None**
-
-   ## Acknowledgments
-   - Hat tip to anyone whose code was used
-   - Inspiration
-   - etc
+   

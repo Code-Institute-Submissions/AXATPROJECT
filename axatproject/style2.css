@@ -5,37 +5,16 @@
    overflow-x: hidden;
    margin: 0 0 0 0;
    display: inline-block;
-   
-   
-    @media screen and (max-width: 1500px){
-#container {
-    min-width: 1249px;
- }
-}
-@media screen and (max-width: 1248px){
-.container {
-    min-width: 992px;
- }
-}
-
-@media screen and (min-width: 768px){
-.container {
-    min-width: 768px;
- }
-}
-@media screen and (min-width: 576px){
-.container {
-    min-width: 576px;
-   }
-  }
+   padding-bottom:0;
+   border-bottom: none;
+   background-color: black;
  }  
 /*  End of Basic body style -------------------------------------------------- */
 
 /* Jumbotron .text center help us to style text in the middle of Jumbotron -------------------------------------------------- */
 
   .jumbotron.text-center{
-    height: 100%
-    border-radius: 0;
+    height: 100%;
     background: url("images/logo.jpg") center/cover no-repeat;
     background-size: 100%;
     border-radius:.2px;
@@ -54,7 +33,7 @@
     font-family: 'Eater', cursive;
     margin-top: -29px;
     display: flex;
-    width: 100%
+    width: 100%;
   }
   
   .col-xl-12{
@@ -67,6 +46,9 @@
     background: url("images/picture1.jpg") center center no-repeat;
     background-size: contain;
     display: flex;
+  }
+  .main-text{
+    padding-right: 15px;  
   }
   
  *, ::after, ::before {
@@ -82,6 +64,7 @@
 /* horizontal didvider width-------------------------------------------------- */
 hr {
   width: 100%;
+  overflow: hidden;
 }
 
 /* Begin of Footer styling -------------------------------------------------- */
@@ -90,9 +73,12 @@ hr {
  width: 100%;
  display: flex;
  margin-left: -15px;
+ height: 100%;
+ border-bottom: none;
 }  
 .blockquote-footer::before {
      content: none;
+     padding-bottom: 0;
 }
 
 /* Begin of text -menu styling -------------------------------------------------- */

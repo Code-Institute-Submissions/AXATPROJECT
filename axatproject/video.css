@@ -7,9 +7,11 @@ body {
   font-size: 1rem;
   position: absolute;
 }
+/*Background color */
 .bg-dark{
   text-align: center;
 }
+/*MAIN CONTAINER STYLE*/
 .my-3 .p-3 .bg-white .box-shadow{
   padding-bottom: 1px;
   margin-bottom: 2px!important;
@@ -21,6 +23,7 @@ body {
   padding-top: 1px!important;
   
 }
+/*OVERRIDE BOOTSTRAP BACKGROUND COLOR*/
 .bg-white {
     background-color: #343a40!important;
 
@@ -30,26 +33,35 @@ body {
   margin-bottom: 1px;
   padding-bottom: 0;
   padding-top:1px; 
-   
-  
-}
-.text-link{
-  border: 1px solid black;
-  position: bottom;
-  margin-top: 195px;
-  margin-right: 5px;
-  background-color: #99ccff;
-  text-transform: uppercase;
-
 }
 
+/*VIDEO STYLE*/
+   .text-muted {
+    color: #e2d30d!important;
+    padding-bottom: 100px;
+    padding-top: 3px;
+}
+
+/*Main text style*/
+.small {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/*Button style*/
+.text-link {
+    border: 1px solid black;
+    margin-right: 5px;
+    background-color: #99ccff;
+    text-transform: uppercase;
+}
+/*Button Hover Style*/
 .text-link:hover{
-  transform: scale(1.4)
+  transform: scale(1.5)
 }
-
+/*text general style*/
 .pb-3 .mb-0 .small .lh-125 .border-gray{
   margin-left: 40px;
-  display: 
 }
 .p-3 {
   padding: 1px!important; 
@@ -57,6 +69,7 @@ body {
 .mb-3, .my-3 {
    margin-bottom: 1px!important;
 }
+/*footer class style*/
 .container-full{
   text-align: left;
   background: bottom;

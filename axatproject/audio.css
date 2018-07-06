@@ -36,7 +36,6 @@ body {
 }
 .text-link{
   border: 1px solid black;
-  position: bottom;
   margin-top: 195px;
   margin-right: 5px;
   background-color: #99ccff;
@@ -60,6 +59,7 @@ body {
 }
 .fixed-bottom{
   text-align: left;
+  position: fixed;
   background: bottom;
   margin-bottom: 0;
   padding-bottom: 0;

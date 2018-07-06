@@ -6,6 +6,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 0;
   color: #5a5a5a;
+  background-color: blue;
 }
 
 
@@ -104,7 +105,6 @@ body {
 }
 .container-full{
   background-color: blue;
-  background:cover;
   height: 100%;
   margin-bottom: 0;
   padding-bottom: 0;

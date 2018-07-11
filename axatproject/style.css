@@ -18,7 +18,7 @@
     background: url("images/logo.jpg") center/cover no-repeat;
     background-size: 100%;
     border-radius:.2px;
-    max-height: 150px;
+   /* max-height: 150px; */
     text-decoration: none;
     color: #FFF;
     text-shadow: 3px 3px red;
@@ -33,7 +33,6 @@
     font-family: 'Eater', cursive;
     margin-top: -29px;
     display: flex;
-    width: 100%;
   }
   
   .col-xl-12{
@@ -50,10 +49,6 @@
   .main-text{
     padding-right: 15px;  
   }
-  
- *, ::after, ::before {
- box-sizing: content-box;
-}
 
 .container-fluid{
     /*padding-right: -15px; for testing purpose only*/
@@ -72,9 +67,9 @@ hr {
  background-color: black;
  width: 100%;
  display: flex;
+ margin-bottom:0;
  margin-left: -15px;
  height: 100%;
- border-bottom: none;
 }  
 .blockquote-footer::before {
      content: none;
